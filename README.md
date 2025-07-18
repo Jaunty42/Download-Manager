@@ -1,4 +1,4 @@
-# IDM Activation Script
+# IDM Activation Script (Jaunty42)
 An open-source tool to activate and reset the trial of [Internet Download Manager](https://www.internetdownloadmanager.com/)
 
 # Disclaimer
