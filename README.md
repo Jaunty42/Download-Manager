@@ -8,12 +8,12 @@ I want to clarify that I am not the original author of this script. When I initi
 * IDM freeze trial and activation with registry key lock method
 * Activation and trial persist even after installing IDM updates
 * IDM trial reset
-* Fully open source
+* Fully Open Source
 * Based on the transparent batch script
 
 # IAS Latest Release
 Last Release - v1.2 (12-Feb-2024)
-[GitHub](https://github.com/lstprjct/IDM-Activation-Script)
+[GitHub](https://github.com/Jaunty42/Download-Manager)
 
 # Download / How to use it?
 First fresh install [Internet Download Manager](https://www.internetdownloadmanager.com/). Make sure previous cracks/patches are removed/uninstalled if there are any.
@@ -33,7 +33,7 @@ After that follow the below steps to activate it.
 
 # Method 2 - Traditional
 
-* Download the file from [GitHub](https://github.com/lstprjct/IDM-Activation-Script/archive/refs/heads/main.zip)
+* Download the file from [GitHub](https://github.com/Jaunty42/Download-Manager/archive/refs/heads/main.zip)
 * Right-click on the downloaded zip file and extract
 * In the extracted folder, run the file named `IAS.cmd`
 * You will see the activation options, and follow onscreen instructions.
@@ -118,5 +118,7 @@ And thanks to the IAS users for their interest, feedback, and assistance.
 ------------------------------------------------------------------------
 
 Made with Love ❤️
+
+
 
 # Download-Manager
