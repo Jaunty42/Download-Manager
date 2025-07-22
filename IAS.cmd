@@ -10,8 +10,9 @@
 ::
 ::   Source: https://github.com/Jaunty42/Download-Manager.git
 ::   
-::   Contact : https://www.firenos.com/
 ::   Author : Jaunty42
+::   Contact : https://www.firenos.com/
+::   Telegram: https://t.me/Jaunty42
 ::
 ::============================================================================
 
@@ -373,7 +374,7 @@ echo:
 call :_color2 %_White% "             " %_Green% "Created By Jaunty42"
 echo:            ___________________________________________________ 
 echo:
-echo:               Telegram: @Jaunty42
+echo:               Telegram: https://t.me/Jaunty42
 echo:               Github: https://github.com/Jaunty42
 echo:            ___________________________________________________ 
 echo:                                                               
