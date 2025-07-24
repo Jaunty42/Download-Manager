@@ -118,10 +118,3 @@ And thanks to the IAS users for their interest, feedback, and assistance.
 ------------------------------------------------------------------------
 
 Made with Love ❤️
-<<<<<<< HEAD
-
-
-
-# Download-Manager
-=======
->>>>>>> dev1
