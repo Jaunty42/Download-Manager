@@ -63,7 +63,7 @@ exit /b
 ::========================================================================================================================================
 
 set "blank="
-set "mas=https://github.com/lstprjct/IDM-Activation-Script/wiki/"
+set "mas=https://github.com/Jaunty42/Download-Manager/wiki/"
 
 ::  Check if Null service is working, it's important for the batch script
 
@@ -370,11 +370,11 @@ if not defined terminal mode 75, 28
 
 echo:
 echo:
-call :_color2 %_White% "             " %_Green% "Create By Piash"
+call :_color2 %_White% "             " %_Green% "Create By Jaunty42"
 echo:            ___________________________________________________ 
 echo:
-echo:               Telegram: @ModByPiash
-echo:               Github: https://github.com/lstprjct
+echo:               Telegram: @Jaunty42
+echo:               Github: https://github.com/Jaunty42/Download-Manager
 echo:            ___________________________________________________ 
 echo:                                                               
 echo:               [1] Activate
