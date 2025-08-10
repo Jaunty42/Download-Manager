@@ -2,7 +2,7 @@
 An open-source tool to activate and reset the trial of [Internet Download Manager](https://www.internetdownloadmanager.com/)
 
 # Disclaimer
-I want to clarify that I am not the original author of this script. When I initially published this script on GitHub, the primary author had not yet created an official GitHub repository. As a result, the only available option for users was to visit the [official forum](https://www.nsaneforums.com/topic/371047--/?do=findComment%5E&comment=1578647) to download and utilize the script, later they created the [Github](https://github.com/WindowsAddict/IDM-Activation-Script) repository. My main aim in creating this repository was to streamline the process for users. Furthermore, I ensured to credit the original creators of the script as a sign of respect for their work.
+Please use this script for educational purposes only. Always support the original creators of the Software.
 
 # Features
 * IDM freeze trial and activation with registry key lock method
@@ -13,7 +13,7 @@ I want to clarify that I am not the original author of this script. When I initi
 
 # IAS Latest Release
 Last Release - v1.2 (12-Feb-2024)
-[GitHub](https://github.com/lstprjct/IDM-Activation-Script)
+[GitHub](https://github.com/Jaunty42/Download-Manager)
 
 # Download / How to use it?
 First fresh install [Internet Download Manager](https://www.internetdownloadmanager.com/). Make sure previous cracks/patches are removed/uninstalled if there are any.
@@ -33,7 +33,7 @@ After that follow the below steps to activate it.
 
 # Method 2 - Traditional
 
-* Download the file from [GitHub](https://github.com/lstprjct/IDM-Activation-Script/archive/refs/heads/main.zip)
+* Download the file from [GitHub](https://github.com/Jaunty42/Download-Manager/archive/refs/heads/main.zip)
 * Right-click on the downloaded zip file and extract
 * In the extracted folder, run the file named `IAS.cmd`
 * You will see the activation options, and follow onscreen instructions.
@@ -71,17 +71,16 @@ After that follow the below steps to activate it.
 
 # Troubleshoot
 * Browser Integration Fix: [Chrome](https://www.internetdownloadmanager.com/register/new_faq/bi9.html) - [Firefox](https://www.internetdownloadmanager.com/register/new_faq/bi4.html)
-* Reach out to us on [Telegram](https://t.me/ModByPiash) with an error screenshot.
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png)](https://t.me/ModByPiash)
+* Reach out to us on [Telegram](https://t.me/Jaunty42) with an error screenshot.
+[![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png)](https://t.me/Jaunty42)
 
 # Changelog
 ## v1.2
 * Added back activation option with a randomized name, email, and key in registration details along with a warning that it’s not working for some users, the recommended option is to use Freeze trial.
 ## v1.1
 * IDM update 6.42b3 has started showing fake serial popups with IAS activation, due to this we have removed the activation option and replaced it with the Freeze trial option to lock the 30-day trial period for the lifetime.
-* Now the script will disable quick-edit in CMD windows using Powershell instead of editing the registry, thanks to @abbodi1406 for the code and @awuctl for the idea.
-* Code to relaunch script with conhost.exe to avoid terminal app is now merged in quick-edit disable code, thanks to @abbodi1406.
-Updated full code from [WindowsAddict ](https://massgrave.dev/idm-activation-script)
+* Now the script will disable quick-edit in CMD windows using Powershell instead of editing the registry.
+* Code to relaunch script with conhost.exe to avoid terminal app is now merged in quick-edit disable code.
 ## v1.0
 * Added the code to relaunch the script with conhost.exe if the script is running from the terminal app.
 * Fixed an issue in getting the current user account SID.
@@ -95,7 +94,7 @@ Updated full code from [WindowsAddict ](https://massgrave.dev/idm-activation-scr
 * The script will back up the CLSISD registry keys before performing operations on them.
 * Many error checks are added to better identify the issues.
 ## v0.8
-* Move the project to [Github](https://github.com/lstprjct/IDM-Activation-Script)
+* Move the project to [Github](https://github.com/Jaunty42/Download-Manager)
 * Minor bug fixes
 * Add info to inform users that empty registry keys are being deleted when the script deletes a lot of them
 
@@ -103,17 +102,6 @@ Updated full code from [WindowsAddict ](https://massgrave.dev/idm-activation-scr
 ![IAS](https://github.com/lstprjct/IDM-Activation-Script/assets/88411318/fafdb481-c497-464f-b1e6-9a4254eaf880)
 
 ![IAS_Freeze_Trial](https://github.com/lstprjct/IDM-Activation-Script/assets/88411318/76b36582-8cf4-4d1e-870f-6e8e57c80a87)
-
-# Credits
-
-|                                             |                                                                                                                                                                                                                                        |
-|-------------------|-----------------------------------------------------|
-| Dukun Cabul                                 | Original researcher of this IDM trial reset and activation logic, made an Autoit tool for these methods, [IDM-AIO_2020_Final](https://nsaneforums.com/topic/371047-discussion-internet-download-manager-fixes/page/8/#comment-1632062) |
-| AveYo aka BAU                               | [reg_own lean and mean snippet](https://pastebin.com/XTPt0JSC)                                                                                                                                                                         |
-| [abbodi1406](https://github.com/abbodi1406) | Help in coding                                                                                                                                                                                                                         |
-| WindowsAddict                               | Original [IAS](https://github.com/WindowsAddict/IDM-Activation-Script) Author                                                                                                                                                                                                                             |
-
-And thanks to the IAS users for their interest, feedback, and assistance.
 
 ------------------------------------------------------------------------
 
