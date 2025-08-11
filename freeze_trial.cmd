@@ -476,6 +476,9 @@ exit /b
 :_activate
 
 cls
+
+timeout /t 30
+
 if not %HKCUsync%==1 (
 if not defined terminal mode 153, 35
 ) else (
