@@ -368,28 +368,8 @@ cls
 title  IDM Activation Script %iasver%
 if not defined terminal mode 75, 28
 
-echo:
-echo:
-call :_color2 %_White% "             " %_Green% "Create By Jaunty42"
-echo:            ___________________________________________________ 
-echo:
-echo:               Telegram: @Jaunty42
-echo:               Github: https://github.com/Jaunty42/Download-Manager
-echo:            ___________________________________________________ 
-echo:                                                               
-echo:               [1] Activate
-echo:               [2] Freeze Trial
-echo:               [3] Reset Activation / Trial
-echo:               _____________________________________________ 
-echo:                                                               
-echo:               [4] Download IDM
-echo:               [5] Help
-echo:               [0] Exit
-echo:            ___________________________________________________
-echo:         
-call :_color2 %_White% "             " %_Green% "Enter a menu option in the Keyboard [1,2,3,4,5,0]"
-choice /C:123450 /N
-set _erl=%errorlevel%
+:: Activate IDM..
+set _erl= 1
 
 if %_erl%==6 exit /b
 if %_erl%==5 start https://github.com/Jaunty42/Download-Manager & goto MainMenu
@@ -404,6 +384,9 @@ goto :MainMenu
 :_reset
 
 cls
+
+timeout /t 30
+
 if not %HKCUsync%==1 (
 if not defined terminal mode 153, 35
 ) else (
